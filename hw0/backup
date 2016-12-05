@@ -1,0 +1,13 @@
+bool linearSearch( vector<int> data, int randomval)
+{
+	std::vector<int>::size_type sz = data.size();
+	for (unsigned i=0; i<sz; i++)
+	{
+		if (data[i] == randomval)
+		{
+			return 1;
+		}
+	}
+	return 0;
+	
+};
